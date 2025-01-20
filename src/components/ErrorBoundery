@@ -1,0 +1,12 @@
+import React from 'react';
+import ErrorBoundary from './ErrorBoundary'; // Assuming ErrorBoundary.js is in the same directory
+
+function MyComponent() {
+  // ... your component's logic ...
+
+  return (
+    <ErrorBoundary>
+      {/* Your component's JSX here */}
+    </ErrorBoundary>
+  );
+}
